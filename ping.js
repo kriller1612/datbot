@@ -41,7 +41,7 @@ client.on('message', message => {
             message.channel.send('Here ye go, ' + message.author + ' - ' + link);
             break;
         case '!ermin':
-            const ermin = client.emojis.find("name", "ermin");
+            const ermin = client.emojis.find("name", "incest");
             message.channel.send(`${ermin} Drenge, skal vi ikke spille noget minecraft? ${ermin}`);
             break; // Remember to break!
     }
