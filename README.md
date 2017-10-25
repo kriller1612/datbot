@@ -1,5 +1,5 @@
 # DatBot
-*Not the bot we deserve - but the bot we need*
+*Not the bot we need - but the bot we deserve*
 
 This thing requires node.js to run (It's JavaScript)
 
