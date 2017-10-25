@@ -36,6 +36,9 @@ client.on('message', message => {
             break;
         case '!code': // Nesting cases creates synonyms!
         case '!contribute':
+        case '!ermin':
+            // Pong the pinger!
+            message.channel.send(':incest: Drenge, skal vi ikke spille noget Minecraft? :incest:');
         case '!source':
             // Send a link to the source code
             message.channel.send('Here ye go, ' + message.author + ' - ' + link);
