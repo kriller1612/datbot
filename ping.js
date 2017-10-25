@@ -40,6 +40,9 @@ client.on('message', message => {
             // Send a link to the source code
             message.channel.send('Here ye go, ' + message.author + ' - ' + link);
             break;
+        case '!ermin':
+            message.channel.send(':incest: Drenge, skal vi ikke spille noget minecraft? :incest:');
+            break; // Remember to break!
     }
 });
 
