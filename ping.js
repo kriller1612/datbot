@@ -40,41 +40,41 @@ client.on('message', message => {
             // Send a link to the source code
             message.channel.send('Here ye go, ' + message.author + ' - ' + link);
             break;
-           case '!ermin':
-                const ermin = client.emojis.find("name", "incest");
-           switch(Math.ceil(Math.random()*10)) {
-             case 1: 
-               message.channel.send(`${ermin} Drenge, skal vi ikke spille noget minecraft? ${ermin}`);
-               break; // Remember to break!
-             case 2: 
-               message.channel.send(`${ermin} Pokémon, jeg vælger dig! ${ermin}`);
-               break; // Remember to break!
-             case 3: 
-               message.channel.send(`${ermin} <blank> ${ermin}`);
-               break; // Remember to break!
-             case 4: 
-               message.channel.send(`${ermin} <blank2> ${ermin}`);
-               break; // Remember to break!
-             case 5: 
-               message.channel.send(`${ermin} <blank3> ${ermin}`);
-               break; // Remember to break!
-             case 6: 
-               message.channel.send(`${ermin} <blank4> ${ermin}`);
-               break; // Remember to break!
-             case 7: 
-               message.channel.send(`${ermin} <blank5> ${ermin}`);
-               break; // Remember to break!
-             case 8: 
-               message.channel.send(`${ermin} <blank6> ${ermin}`);
-               break; // Remember to break!
-             case 9: 
-               message.channel.send(`${ermin} <blank7> ${ermin}`);
-               break; // Remember to break!
-             case 10: 
-               message.channel.send(`${ermin} <blank8> ${ermin}`);
-               break; // Remember to break!
-           }
-           break; // Remember to break!
+        case '!ermin':
+            const ermin = client.emojis.find("name", "incest");
+            switch(Math.ceil(Math.random()*6)) {
+              case 1: 
+                message.channel.send(`${ermin} Drenge, skal vi ikke spille noget minecraft? ${ermin}`);
+                break; // Remember to break!
+              case 2: 
+                 message.channel.send(`${ermin} Pokémon, jeg vælger dig! ${ermin}`);
+                 break; // Remember to break!
+              case 3: 
+                 message.channel.send(`${ermin} Jeg har lyst til at X med min søsters Y ${ermin}`);
+                 break; // Remember to break!
+              case 4: 
+                 message.channel.send(`${ermin} Ej, Calculus Beta. Det er er bare det fedeste fag NOGENSINDE. ${ermin}`);
+                 break; // Remember to break!
+              case 5: 
+                 message.channel.send(`${ermin} Hvad? ${ermin}`);
+                 break; // Remember to break!
+              case 6: 
+                 message.channel.send(`${ermin} Klokken er 3 om natten... Min pik er stiv... Sover min søster? ${ermin}`);
+                 break; // Remember to break!
+              case 7: 
+                 message.channel.send(`${ermin} <blank5> ${ermin}`);
+                 break; // Remember to break!
+              case 8: 
+                 message.channel.send(`${ermin} <blank6> ${ermin}`);
+                 break; // Remember to break!
+              case 9: 
+                 message.channel.send(`${ermin} <blank7> ${ermin}`);
+                 break; // Remember to break!
+              case 10: 
+                 message.channel.send(`${ermin} <blank8> ${ermin}`);
+                 break; // Remember to break!
+             }
+            break; // Remember to break!
     }
 });
 
